@@ -386,7 +386,7 @@ open class PieChartRenderer: NSObject, DataRenderer
                 let valueText = formatter.stringForValue(
                     value,
                     entry: e,
-                    dataSetIndex: i,
+                    dataSetIndex: j,
                     viewPortHandler: viewPortHandler)
 
                 let sliceXBase = cos(transformedAngle.DEG2RAD)
